@@ -61,6 +61,10 @@ export async function signupAction(formData: FormData) {
       maxAge: 60 * 60 * 24 * 30, // 30 days
     })
 
+    return {
+      success: true,
+      message: "Account created successfully",
+    }
   } catch (error) {
     console.error("Signup error:", error)
     return {
