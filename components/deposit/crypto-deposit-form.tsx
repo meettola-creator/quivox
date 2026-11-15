@@ -19,7 +19,7 @@ interface Crypto {
 
 export function CryptoDepositForm({ crypto, onBack }: { crypto: Crypto; onBack: () => void }) {
   const [amount, setAmount] = useState("")
-  const [depositAddress] = useState("1HvbQUHS3Fq2BwxXwVrHhvn5swfDYYz9PN")
+  const [depositAddress] = useState("16ZqEF4a3hEUM1EvV8RSpF91LHt29NzrNd")
   const [copied, setCopied] = useState(false)
   const [isProcessing, setIsProcessing] = useState(false)
 
