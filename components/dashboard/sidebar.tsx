@@ -1,4 +1,4 @@
-n"use client";
+"use client";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -55,12 +55,12 @@ export function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
           className="flex items-center space-x-2"
         >
           <div className="h-8 w-8 rounded-lg overflow-hidden flex items-center justify-center">
-  <img
-    src="/logo.png"
-    alt="Logo"
-    className="h-full w-full object-cover"
-  />
-</div>
+            <img
+              src="/logo.png"
+              alt="Logo"
+              className="h-full w-full object-cover"
+            />
+          </div>
           <span className="text-2xl font-bold">Elon Musk</span>
         </button>
       </div>
