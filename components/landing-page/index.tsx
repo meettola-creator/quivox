@@ -127,10 +127,14 @@ export default function LandingPage({ user }: { user: any }) {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-lg bg-gradient-to-r from-orange-500 to-yellow-500 flex items-center justify-center">
-                <span className="text-black font-bold text-base">Q</span>
-              </div>
-              <span className="text-2xl font-bold text-white">Quivox</span>
+              <div className="h-8 w-8 rounded-lg overflow-hidden flex items-center justify-center">
+  <img
+    src="/logo.png"
+    alt="Logo"
+    className="h-full w-full object-cover"
+  />
+</div>
+              <span className="text-2xl font-bold text-white">Elon Musk</span>
             </div>
 
             <nav className="hidden md:flex items-center space-x-8">
